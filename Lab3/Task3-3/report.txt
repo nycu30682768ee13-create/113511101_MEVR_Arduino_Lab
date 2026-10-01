@@ -1,0 +1,54 @@
+課題報告：Advanced Task 3-3 HC-05 Wireless LED Control
+
+學生姓名：耿同德
+
+學生學號：113511101
+
+完成日期：2026-10-01
+
+---
+
+1. 實驗目標
+
+學習設定與使用 HC-05 藍牙模組，實現個人電腦與微控制器之間的無線 UART 序列通訊。
+
+掌握 Arduino SoftwareSerial 軟體序列埠的應用，將藍牙通訊與硬體燒錄通道分離，避免實體腳位訊號衝突。
+
+熟悉 Windows 藍牙虛擬 COM 埠（連入/連出）的配置。
+
+
+2. 設備與元件
+
+Arduino Uno 開發板 x 1
+
+USB Type-B 傳輸線 x 1
+
+個人電腦（已安裝 Arduino IDE）x 1
+
+HC-05 藍牙模組 x 1
+
+麵包版 x 1
+
+按鈕 x 1
+
+LED x 1
+
+杜邦線 x 若干
+
+電阻 x 若干
+
+
+3. 操作說明與成果
+
+硬體接線與燒錄：保留實驗 3-2 的 LED（Pin 13）與按鈕（Pin 2）基本電路，並加入 HC-05 模組。為避免與 USB 燒錄通道（Pin 0, 1）衝突，將 HC-05 的 TXD 接至 Arduino Pin 10（軟體 RX），RXD 接至 Pin 11（軟體 TX）。修改 Arduino 程式，引入 SoftwareSerial 函式庫取代原有的 Serial 來處理字串的讀寫與回傳。
+接著於 Windows 系統中與 HC-05 進行藍牙配對，並在設定中找出標示為「連出 (Outgoing)」的 COM 埠（COM8）。回到 C# 專案，將 SerialPort 連線目標更改為該藍牙通訊埠，並設定 WriteTimeout 與 ReadTimeout 以防止執行緒阻塞。
+
+實驗成果：
+
+啟動 C# 程式並觸發 mySerialPort.Open() 後，HC-05 模組指示燈由快速閃爍轉變為短暫雙閃，證實電腦與藍牙模組成功建立無線連線。
+
+在拔除 USB 傳輸線（改用外部供電）的純無線狀態下，於 C# 介面點擊「On」或「Off」，指令能順利透過藍牙發送，準確控制 Arduino 上的 LED 亮滅，且視窗運作流暢無卡死現象。
+
+按下或放開麵包板上的實體按鈕時，Arduino 透過藍牙即時發射 "Pressed" 或 "Released" 訊號。C# 應用程式接收後，介面上的狀態 Label 亦能瞬間同步更新。成功將原本的有線系統無縫升級為雙向無線控制架構。
+
+操作影片：請參閱同目錄下 DemoVideo/Advanced_3-3.mp4 之實際操作畫面。

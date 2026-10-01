@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Github\\113511101_MEVR_Arduino_Lab\\Lab3\\Task3-3\\MEVR_Arduino_3-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32C14407-080E-5614-C02A-D134B8D114C4}|MEVR_Arduino_3-2\\MEVR_Arduino_3-2.csproj|c:\\github\\113511101_mevr_arduino_lab\\lab3\\task3-3\\mevr_arduino_3-2\\mevr_arduino_3-2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C14407-080E-5614-C02A-D134B8D114C4}|MEVR_Arduino_3-2\\MEVR_Arduino_3-2.csproj|solutionrelative:mevr_arduino_3-2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C14407-080E-5614-C02A-D134B8D114C4}|MEVR_Arduino_3-2\\MEVR_Arduino_3-2.csproj|c:\\github\\113511101_mevr_arduino_lab\\lab3\\task3-3\\mevr_arduino_3-2\\mevr_arduino_3-2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C14407-080E-5614-C02A-D134B8D114C4}|MEVR_Arduino_3-2\\MEVR_Arduino_3-2.csproj|solutionrelative:mevr_arduino_3-2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C14407-080E-5614-C02A-D134B8D114C4}|MEVR_Arduino_3-2\\MEVR_Arduino_3-2.csproj|C:\\Github\\113511101_MEVR_Arduino_Lab\\Lab3\\Task3-3\\MEVR_Arduino_3-2\\mevr_arduino_3-2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{32C14407-080E-5614-C02A-D134B8D114C4}|MEVR_Arduino_3-2\\MEVR_Arduino_3-2.csproj|solutionrelative:mevr_arduino_3-2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Github\\113511101_MEVR_Arduino_Lab\\Lab3\\Task3-3\\MEVR_Arduino_3-2\\MEVR_Arduino_3-2\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "MEVR_Arduino_3-2\\Form1.Designer.cs",
+              "ToolTip": "C:\\Github\\113511101_MEVR_Arduino_Lab\\Lab3\\Task3-3\\MEVR_Arduino_3-2\\MEVR_Arduino_3-2\\Form1.Designer.cs",
+              "RelativeToolTip": "MEVR_Arduino_3-2\\Form1.Designer.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwEEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:45:47.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Github\\113511101_MEVR_Arduino_Lab\\Lab3\\Task3-3\\MEVR_Arduino_3-2\\MEVR_Arduino_3-2\\Form1.cs",
+              "RelativeDocumentMoniker": "MEVR_Arduino_3-2\\Form1.cs",
+              "ToolTip": "C:\\Github\\113511101_MEVR_Arduino_Lab\\Lab3\\Task3-3\\MEVR_Arduino_3-2\\MEVR_Arduino_3-2\\Form1.cs [Design]",
+              "RelativeToolTip": "MEVR_Arduino_3-2\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:51:40.852Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Github\\113511101_MEVR_Arduino_Lab\\Lab3\\Task3-3\\MEVR_Arduino_3-2\\MEVR_Arduino_3-2\\Form1.cs",
+              "RelativeDocumentMoniker": "MEVR_Arduino_3-2\\Form1.cs",
+              "ToolTip": "C:\\Github\\113511101_MEVR_Arduino_Lab\\Lab3\\Task3-3\\MEVR_Arduino_3-2\\MEVR_Arduino_3-2\\Form1.cs",
+              "RelativeToolTip": "MEVR_Arduino_3-2\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:20:59.673Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
